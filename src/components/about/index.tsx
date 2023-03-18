@@ -5,7 +5,16 @@ const About = () => {
     <S.AboutContainer>
       <S.AboutTitle>Sobre mim</S.AboutTitle>
       <S.AboutText>
-        Olá, meu nome é Josué, sou dev Front End e este é o meu portfólio.
+        Eu sou Josué Gomes Ribeiro, um desenvolvedor web front-end com
+        conhecimentos em diversas tecnologias de ponta. Sou especialista em
+        JavaScript, ReactJS, TypeScript, AngularJS, Git, Styled Components,
+        Tailwind, HTML e CSS. Minha paixão por criar interfaces amigáveis e
+        responsivas me levou a buscar conhecimentos técnicos avançados em
+        tecnologias modernas de front-end, bem como uma compreensão profunda das
+        melhores práticas e padrões da indústria. Sou altamente comprometido com
+        a qualidade, entrega no prazo e satisfação do cliente. Além disso, sou
+        um profissional ético e responsável que sempre busca novos desafios para
+        continuar aprendendo e evoluindo na minha carreira.
       </S.AboutText>
     </S.AboutContainer>
   );
