@@ -21,7 +21,7 @@ const Card = () => {
   return (
     <S.HomeContainer>
       <S.Text>
-        Olá meu nome e Josué, sou dev front end e esse eo meu portfólio
+        Olá, meu nome é Josué, sou dev Front End e este é o meu portfólio.
       </S.Text>
 
       <S.AnimatedRgbBorder color={color} brightness={brightness}>

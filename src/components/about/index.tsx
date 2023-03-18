@@ -3,7 +3,10 @@ import * as S from "./styled";
 const About = () => {
   return (
     <S.AboutContainer>
-      <h1>About</h1>
+      <S.AboutTitle>Sobre mim</S.AboutTitle>
+      <S.AboutText>
+        Olá, meu nome é Josué, sou dev Front End e este é o meu portfólio.
+      </S.AboutText>
     </S.AboutContainer>
   );
 };

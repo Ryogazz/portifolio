@@ -38,7 +38,7 @@ export const Text = styled.div`
 `;
 
 export const Img = styled.img`
-  max-width: 300px;
+  max-width: 100%;
   height: auto;
 
   @media screen and (max-width: 768px) {
@@ -52,31 +52,19 @@ const RgbBorder = styled.div<{ color: string; brightness: number }>`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80vw;
+  width: 80%;
   max-width: 400px;
-  height: 80vw;
-  max-height: 400px;
+  height: 400px;
   padding: 20px;
   border-radius: 50%;
   border-color: ${({ color, brightness }) => `rgba(${color}, ${brightness})`};
-  transition: background-color 0.5s ease-in-out;
+  transition: border-color 1s ease-in-out;
   box-shadow: 0 0 10px rgba(${({ color }) => color}, 0.5);
-`;
-
-const RgbBorderAnimation = keyframes`
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
-  }
+  overflow: hidden;
 `;
 
 export const AnimatedRgbBorder = styled(RgbBorder)`
-  animation: ${RgbBorderAnimation} 5s ease-in-out infinite;
+  border-color: ${({ color, brightness }) => `rgba(${color}, ${brightness})`};
 
   @media screen and (max-width: 768px) {
     width: 90vw;
