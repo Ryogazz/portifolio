@@ -608,6 +608,11 @@ postcss@^8.4.21:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
+react-cyber-elements@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/react-cyber-elements/-/react-cyber-elements-1.0.2.tgz#4e5d772af42140db8152d967874a47f9fad0a3ec"
+  integrity sha512-wfEF7dQ+8BBYhzz2FjB24izgFiy1La+2DiFmooAWRDeN87j9l9Phtz3WrvKXckx03oNypOt/bDU5ASSDCi80jQ==
+
 react-dom@^18.2.0:
   version "18.2.0"
   resolved "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"

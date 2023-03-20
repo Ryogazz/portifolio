@@ -8,4 +8,5 @@ export const HomeContainer = styled.div`
   justify-content: center;
   align-items: center;
   color: white;
+  overflow: hidden;
 `

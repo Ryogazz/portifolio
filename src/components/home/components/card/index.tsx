@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import * as S from "./styled";
 
 const Card = () => {
-  
   const randomColor = () =>
     `${Math.floor(Math.random() * 255)}, ${Math.floor(
       Math.random() * 255
@@ -18,17 +17,20 @@ const Card = () => {
     }, 1000);
     return () => clearInterval(intervalId);
   }, []);
+  
   return (
     <S.HomeContainer>
-      <S.Text>
-        Olá, meu nome é Josué, sou dev Front End e este é o meu portfólio.
-      </S.Text>
-
-      <S.AnimatedRgbBorder color={color} brightness={brightness}>
-        <S.Img src="/avatar.png" alt="Imagem de um desenvolvedor" />
-      </S.AnimatedRgbBorder>
-
-      {/* <S.Img src="/avatar.png" alt="Imagem de um desenvolvedor" /> */}
+      <S.BackgroundContainer>
+        <S.ContentContainer>
+          <S.Text>
+            Olá, meu nome é Josué, sou dev Front End e este é o meu portfólio.
+          </S.Text>
+          <S.AnimatedRgbBorder color={color} brightness={brightness}>
+            <S.Img src="/avatar.png" alt="Imagem de um desenvolvedor" />
+          </S.AnimatedRgbBorder>
+        </S.ContentContainer>
+        <S.Background />
+      </S.BackgroundContainer>
     </S.HomeContainer>
   );
 };
