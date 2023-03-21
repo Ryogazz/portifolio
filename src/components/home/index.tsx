@@ -4,7 +4,7 @@ import * as S from "./styled";
 const Home = () => {
   return (
       <S.HomeContainer>
-        <Card />
+        {/* <Card /> */}
       </S.HomeContainer>
   );
 };

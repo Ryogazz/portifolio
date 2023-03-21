@@ -5,19 +5,19 @@ const NavMenu = () => {
     <S.MenuContainer>
       <S.MenuContent>
         <S.MenuOption>
-          <a href="/">Home</a>
+          <a href="#home">Home</a>
         </S.MenuOption>
         <S.MenuOption>
-          <a href="/about">About</a>
+          <a href="/#about">About</a>
         </S.MenuOption>
         <S.MenuOption>
-          <a href="*">Stacks</a>
+          <a href="#stacks">Stacks</a>
         </S.MenuOption>
         <S.MenuOption>
-          <a href="*">Projects</a>
+          <a href="#projects">Projects</a>
         </S.MenuOption>
         <S.MenuOption>
-          <a href="*">Contact</a>
+          <a href="#contacts">Contact</a>
         </S.MenuOption>
       </S.MenuContent>
     </S.MenuContainer>

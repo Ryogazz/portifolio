@@ -33,7 +33,7 @@ export const Background = styled(CyberEl72)`
   }
   // fundo
   path:nth-of-type(3) {
-    fill: green !important;
+    fill: #2E8B57	 !important;
     /* stroke: orange; */
   }
   // detalhes ao redor

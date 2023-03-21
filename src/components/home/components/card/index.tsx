@@ -19,7 +19,7 @@ const Card = () => {
   }, []);
   
   return (
-    <S.HomeContainer>
+    <S.HomeContainer id='home'>
       <S.BackgroundContainer>
         <S.ContentContainer>
           <S.Text>

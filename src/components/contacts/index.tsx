@@ -3,7 +3,7 @@ import * as S from "./styled";
 const Contacts = () => {
 
   return (
-    <S.ContactsContainer>
+    <S.ContactsContainer id='contacts'>
       <S.ContainerText>
         <S.ContactText>
           Estou aqui para ajudar a tornar sua ideia uma realidade, vamos
